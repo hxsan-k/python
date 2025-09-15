@@ -15,6 +15,8 @@ Create a function named `create_character` that takes a character name and three
 
 Before starting this exercise, you should have completed the ['Introduction to Python'](https://www.freecodecamp.org/learn/full-stack-developer/lecture-introduction-to-python/) section and ['Build a Caesar Cipher'](https://www.freecodecamp.org/learn/full-stack-developer/workshop-caesar-cipher/) guided exercise on FreeCodeCamp.
 
+---
+
 ## What You’ll Do 🛠️
 
 1. **Function Setup**  
@@ -34,7 +36,7 @@ Before starting this exercise, you should have completed the ['Introduction to P
 4. **Format Character Output ✨**  
    - If all inputs are valid, return a string with four lines:  
      1. The first line shows the character name.  
-     2. Lines 2–4 show each stat (`STR`, `INT`, `CHA`) followed by a number of full dots (`●`) equal to the stat value, and empty dots (`○`) to make a total of 10. 
+     2. Lines 2–4 show each stat (`STR`, `INT`, `CHA`) followed by a number of full dots (`●`) equal to the stat value, and empty dots (`○`) to make a total of 10.
 
 > ⚠️ Note: Avoid using `str` or `int` as variable names since they are Python keywords.
 
