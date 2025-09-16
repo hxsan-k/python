@@ -1,7 +1,7 @@
 # RPG Character Exercise 🎲
 
-In this exercise, you'll build a simple Python function that creates an RPG character. 
-It’s a great way to practice functions, input validation, and string formatting while making something fun.
+In this exercise, I built a simple Python function that creates an RPG character. 
+This mini-project from FreeCodeCamp served as an excellent first exercise to get used to some of the rules and quirks of Python.
 
 ---
 
@@ -9,19 +9,19 @@ It’s a great way to practice functions, input validation, and string formattin
 
 Create a function named `create_character` that takes a character name and three stats: strength, intelligence, and charisma. The function should validate all inputs and return a formatted string displaying the character’s stats visually with dots.
 
+By completing this exercise, I practiced:  
+- Writing functions with parameters  
+- Input validation in Python  
+- String formatting and concatenation  
+- Using control flow (`if` statements) effectively 
+
 ---
 
-## Prerequisites ✅
-
-Before starting this exercise, you should have completed the ['Introduction to Python'](https://www.freecodecamp.org/learn/full-stack-developer/lecture-introduction-to-python/) section and ['Build a Caesar Cipher'](https://www.freecodecamp.org/learn/full-stack-developer/workshop-caesar-cipher/) guided exercise on FreeCodeCamp.
-
----
-
-## What You’ll Do 🛠️
+## What I Did 🛠️
 
 1. **Function Setup**  
-   - Create a function called `create_character`.
-   - It should accept four arguments in this order: `character_name`, `strength`, `intelligence`, `charisma`.
+   - Created a function called `create_character`.
+   - It accepts four arguments in this order: `character_name`, `strength`, `intelligence`, `charisma`.
 
 2. **Validate Character Name 📝**  
    - If the name is not a string → return `"The character name should be a string"`.  
@@ -34,7 +34,7 @@ Before starting this exercise, you should have completed the ['Introduction to P
    - The sum of all stats must equal 7 → otherwise return `"The character should start with 7 points"`.
 
 4. **Format Character Output ✨**  
-   - If all inputs are valid, return a string with four lines:  
+   - If all inputs are valid, a string is returned with four lines:  
      1. The first line shows the character name.  
      2. Lines 2–4 show each stat (`STR`, `INT`, `CHA`) followed by a number of full dots (`●`) equal to the stat value, and empty dots (`○`) to make a total of 10.
 
@@ -44,7 +44,7 @@ Before starting this exercise, you should have completed the ['Introduction to P
 
 ## Solution 💻
 
-My complete implementation of this exercise is included in this folder as `rpg-character.py`.
+My complete implementation of this exercise is included in this folder as `rpg-character.py` as well as a version with comments to make it easy to follow along.
 It follows all the validation rules and formatting requirements described above. 
 
 Use it if you are stuck, but attempt the challenge yourself first!
@@ -73,13 +73,4 @@ Use it if you are stuck, but attempt the challenge yourself first!
         if len(character_name) > 10:
             return "The character name is too long"
         ```
-
----
-
-## Learning Outcomes 📚
-
-By completing this exercise, you’ll practice:  
-- Writing functions with parameters  
-- Input validation in Python  
-- String formatting and concatenation  
-- Using control flow (`if` statements) effectively  
+      
